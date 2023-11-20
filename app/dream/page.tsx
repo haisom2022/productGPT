@@ -153,19 +153,25 @@ export default function DreamPage() {
 
                   <div className="space-y-4 w-full max-w-sm">
                     <div className="flex mt-10 items-center space-x-3">
+                      <Image
+                        src="/number-3-white.svg"
+                        width={30}
+                        height={30}
+                        alt="1 icon"
+                      />
                       <p className="text-left font-medium">
                         请补充您的设计需求
                       </p>
                     </div>
-                    <div>
-                       <textarea name="{description}" id="{description}">您可以输入更详细的设计需求</textarea>
+                    <div className="relative block text-left">
+                       <input name="description" id="description">您可以输入更详细的设计需求</input>
                     </div>
                   </div>
 
                   <div className="mt-4 w-full max-w-sm">
                     <div className="flex mt-6 w-96 items-center space-x-3">
                       <Image
-                        src="/number-3-white.svg"
+                        src="/number-4-white.svg"
                         width={30}
                         height={30}
                         alt="1 icon"
