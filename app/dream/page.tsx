@@ -51,6 +51,7 @@ export default function DreamPage() {
   const [photoName, setPhotoName] = useState<string | null>(null);
   const [theme, setTheme] = useState<themeType>("Modern:现代风格");
   const [room, setRoom] = useState<roomType>("Living Room:客厅");
+  const [description, setDescription] = useState<string | null>(null);
 
   const UploadDropZone = () => (
     <UploadDropzone
@@ -85,7 +86,7 @@ export default function DreamPage() {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ imageUrl: fileUrl, theme, room }),
+      body: JSON.stringify({ imageUrl: fileUrl, theme, room,description}),
     });
 
     let newPhoto = await res.json();
@@ -149,6 +150,18 @@ export default function DreamPage() {
                       themes={rooms}
                     />
                   </div>
+
+                  <div className="space-y-4 w-full max-w-sm">
+                    <div className="flex mt-10 items-center space-x-3">
+                      <p className="text-left font-medium">
+                        请补充您的设计需求
+                      </p>
+                    </div>
+                    <div>
+                       <textarea name="{description}" id="{description}">您可以输入更详细的设计需求</textarea>
+                    </div>
+                  </div>
+
                   <div className="mt-4 w-full max-w-sm">
                     <div className="flex mt-6 w-96 items-center space-x-3">
                       <Image
