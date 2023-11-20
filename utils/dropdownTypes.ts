@@ -6,15 +6,15 @@ export type themeType =
   | "Tropical";
 
 export type roomType =
-  | "Living Room"
-  | "Dining Room"
-  | "Bedroom"
-  | "Bathroom"
-  | "Office"
-  | "Gaming Room"
-  | "Kitchen"
-  | "Playroom"
-  | "Basement";
+  | "客厅"
+  | "餐厅"
+  | "卧室"
+  | "浴室"
+  | "办公室"
+  | "游戏室"
+  | "厨房"
+  | "活动室"
+  | "地下室";
 
 export const themes: themeType[] = [
   "Modern",
