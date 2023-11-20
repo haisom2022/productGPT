@@ -51,7 +51,7 @@ export async function POST(request: Request) {
         prompt:
           room === "Gaming Room:游戏室"
             ? "a room for gaming with gaming computers, gaming consoles, and gaming chairs"
-            : `a ${theme.split(":")[1].toLowerCase()} ${room.split(":")[1].toLowerCase()}`,
+            : `a ${theme.split(":")[0].toLowerCase()} ${room.split(":")[0].toLowerCase()}`,
         a_prompt:
           "best quality, extremely detailed, photo from Pinterest, interior, cinematic photo, ultra-detailed, ultra-realistic, award-winning",
         n_prompt:
