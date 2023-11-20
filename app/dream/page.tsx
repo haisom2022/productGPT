@@ -52,7 +52,10 @@ export default function DreamPage() {
   const [theme, setTheme] = useState<themeType>("Modern:现代风格");
   const [room, setRoom] = useState<roomType>("Living Room:客厅");
   const [description, setDescription] = useState<string | null>(null);
-
+  const handleInputChange = (e) => {
+    setInputValue(e.target.value);
+  };
+  
   const UploadDropZone = () => (
     <UploadDropzone
       options={options}
@@ -163,8 +166,15 @@ export default function DreamPage() {
                         请补充您的设计需求
                       </p>
                     </div>
-                    <div className="relative block text-left">
-                       <input name="description" id="description" value="您可以输入更详细的设计需求"/>
+                    <div className="space-y-4 w-full max-w-sm">
+                      <input
+                          name="description"
+                          type="text"
+                          id="description"
+                          value={description}
+                          onChange={handleInputChange}
+                          placeholder="您可以输入更详细的设计需求"
+                        />
                     </div>
                   </div>
 
