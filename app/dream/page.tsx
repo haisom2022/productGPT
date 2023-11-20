@@ -51,10 +51,7 @@ export default function DreamPage() {
   const [photoName, setPhotoName] = useState<string | null>(null);
   const [theme, setTheme] = useState<themeType>("Modern:现代风格");
   const [room, setRoom] = useState<roomType>("Living Room:客厅");
-  const [description, setDescription] = useState<string | null>(null);
-  const handleInputChange = (e) => {
-    setInputValue(e.target.value);
-  };
+  const [description, setDescription] = useState<string>("");
   
   const UploadDropZone = () => (
     <UploadDropzone
@@ -172,7 +169,6 @@ export default function DreamPage() {
                           type="text"
                           id="description"
                           value={description}
-                          onChange={handleInputChange}
                           placeholder="您可以输入更详细的设计需求"
                         />
                     </div>
