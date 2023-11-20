@@ -18,8 +18,8 @@ export default function HomePage() {
           帮您设计效果图
         </h1>
         <h2 className="mx-auto mt-12 max-w-xl text-lg sm:text-gray-400  text-gray-500 leading-7">
-          上传您现有的房屋(或者毛坯)照片，瞧瞧如何在AI的帮助下怎么让您的房屋看起来大不同！
-          只需几步即可，几秒钟渲染后即可预览和下载效果图哦
+          上传您现有的房屋(或者毛坯)照片，AI房屋设计专家让您的房屋看起来大不同！
+          只需几步即可渲染生产房屋效果图
         </h2>
         <Link
           className="bg-blue-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition"
