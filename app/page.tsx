@@ -10,7 +10,7 @@ export default function HomePage() {
       <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-20 mt-20 background-gradient">
         <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal text-gray-300 sm:text-7xl">
-          构建您梦想的房间{" "}
+          构建您梦想的房屋{" "}
           <span className="relative whitespace-nowrap text-blue-600">
             <SquigglyLines />
             <span className="relative">通过AI</span>
@@ -18,7 +18,7 @@ export default function HomePage() {
           帮您设计效果图
         </h1>
         <h2 className="mx-auto mt-12 max-w-xl text-lg sm:text-gray-400  text-gray-500 leading-7">
-          上传您现有的房间(或者毛坯)照片，瞧瞧如何在AI的帮助下怎么让您的房间看起来大不同！
+          上传您现有的房屋(或者毛坯)照片，瞧瞧如何在AI的帮助下怎么让您的房屋看起来大不同！
           只需几步即可，几秒钟渲染后即可预览和下载效果图哦
         </h2>
         <Link
