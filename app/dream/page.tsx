@@ -164,7 +164,7 @@ export default function DreamPage() {
                       </p>
                     </div>
                     <div className="relative block text-left">
-                       <input name="description" id="description">您可以输入更详细的设计需求</input>
+                       <input name="description" id="description" value="您可以输入更详细的设计需求"/>
                     </div>
                   </div>
 
