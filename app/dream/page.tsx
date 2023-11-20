@@ -49,8 +49,8 @@ export default function DreamPage() {
   const [sideBySide, setSideBySide] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
   const [photoName, setPhotoName] = useState<string | null>(null);
-  const [theme, setTheme] = useState<themeType>("Modern");
-  const [room, setRoom] = useState<roomType>("客厅");
+  const [theme, setTheme] = useState<themeType>("Modern:现代风格");
+  const [room, setRoom] = useState<roomType>("Living Room:客厅");
 
   const UploadDropZone = () => (
     <UploadDropzone
