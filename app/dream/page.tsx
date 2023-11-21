@@ -178,12 +178,6 @@ export default function DreamPage() {
 
                   <div className="mt-4 w-full max-w-sm">
                     <div className="flex mt-6 w-96 items-center space-x-3">
-                      <Image
-                        src="/number-4-white.svg"
-                        width={30}
-                        height={30}
-                        alt="1 icon"
-                      />
                       <p className="text-left font-medium">
                         上传一张该空间的照片
                       </p>
@@ -193,8 +187,9 @@ export default function DreamPage() {
               )}
               {restoredImage && (
                 <div>
-                  Here's your remodeled <b>{room.toLowerCase()}</b> in the{" "}
-                  <b>{theme.toLowerCase()}</b> theme!{" "}
+                  这是您刚才选择的<b>{theme.split(":")[1].toLowerCase()}</b>的<b>{room.split(":")[1].toLowerCase()}</b>效果图。
+                  <br />
+                  还有您的需求是：{description}
                 </div>
               )}
               <div
