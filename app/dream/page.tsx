@@ -187,9 +187,12 @@ export default function DreamPage() {
               )}
               {restoredImage && (
                 <div>
-                  这是您刚才选择的<b>{theme.split(":")[1].toLowerCase()}</b>的<b>{room.split(":")[1].toLowerCase()}</b>效果图。
-                  <br />
-                  还有您的需求是：{description}
+                  这是您刚才选择的<b>{theme.split(":")[1].toLowerCase()}</b>的<b>{room.split(":")[1].toLowerCase()}</b>效果图
+                  <br/>
+                  <hr />
+                  您的需求是：<hr/>
+                  {description}
+                  <br/>
                 </div>
               )}
               <div
