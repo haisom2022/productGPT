@@ -171,6 +171,7 @@ export default function DreamPage() {
                           value={description}
                           placeholder="您可以输入更详细的设计需求"
                           onChange={(e) => setDescription(e.target.value)}
+                          className="w-full text-gray-700 rounded-md"
                         />
                     </div>
                   </div>
