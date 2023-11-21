@@ -170,6 +170,7 @@ export default function DreamPage() {
                           id="description"
                           value={description}
                           placeholder="您可以输入更详细的设计需求"
+                          onChange={(e) => setDescription(e.target.value)}
                         />
                     </div>
                   </div>
