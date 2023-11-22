@@ -50,7 +50,7 @@ export default function DreamPage() {
   const [error, setError] = useState<string | null>(null);
   const [photoName, setPhotoName] = useState<string | null>(null);
   const [theme, setTheme] = useState<themeType>("High-Tech:高科技");
-  const [room, setRoom] = useState<roomType>("Vehicle Instrumentation:车载仪表");
+  const [room, setRoom] = useState<roomType>("Display:车载仪表");
   const [description, setDescription] = useState<string>("");
   
   const UploadDropZone = () => (
