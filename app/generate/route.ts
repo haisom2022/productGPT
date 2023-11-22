@@ -52,9 +52,9 @@ export async function POST(request: Request) {
         prompt:
           `${description}`,
         a_prompt:
-          "best quality, extremely detailed, photo from Pinterest,ultra-detailed, ultra-realistic, award-winning",
+          "best quality, extremely detailed,appearance design,industrial design,ultra-detailed, ultra-realistic, award-winning,without any background",
         n_prompt:
-          "longbody, lowres, bad anatomy, bad hands, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality",
+          "longbody, lowres, bad anatomy, bad hands, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality,Complex background",
       },
     }),
   });
