@@ -1,36 +1,28 @@
 export type themeType =
-  | "Modern:现代风格"
-  | "Vintage:古典复古风格"
-  | "Minimalist:简约风格"
-  | "Professional:职场风格"
-  | "Tropical:东南亚风格";
+  | "Modern Minimalist:现代简约"
+  | "Industrial Style:工业风"
+  | "High-Tech:高科技"
+  | "Art Deco:艺术装饰"
+  | "Futurism:未来主义";
 
 export type roomType =
-  | "Living Room:客厅"
-  | "Dining Room:餐厅"
-  | "Bedroom:卧室"
-  | "Bathroom:浴室"
-  | "Office:办公室"
-  | "Gaming Room:游戏室"
-  | "Kitchen:厨房"
-  | "Playroom:活动室"
-  | "Basement:地下室";
+  | "Vehicle Instrumentation:车载仪表"
+  | "Instrument Cluster Housing:仪表支架"
+  | "Chassis:车架"
+  | "Buckle or Latch:锁扣"
+  | "Support or Brace:支撑物";
 
 export const themes: themeType[] = [
-  "Modern:现代风格",
-  "Minimalist:简约风格",
-  "Professional:职场风格",
-  "Tropical:东南亚风格",
-  "Vintage:古典复古风格",
+    "Modern Minimalist:现代简约",
+    "Industrial Style:工业风",
+    "High-Tech:高科技",
+    "Art Deco:艺术装饰",
+    "Futurism:未来主义"
 ];
 export const rooms: roomType[] = [
-  "Living Room:客厅",
-  "Dining Room:餐厅",
-  "Office:办公室",
-  "Bedroom:卧室",
-  "Bathroom:浴室",
-  "Gaming Room:游戏室",
-  "Kitchen:厨房",
-  "Playroom:活动室",
-  "Basement:地下室",
+    "Vehicle Instrumentation:车载仪表",
+    "Instrument Cluster Housing:仪表支架",
+    "Chassis:车架",
+    "Buckle or Latch:锁扣",
+    "Support or Brace:支撑物"
 ];

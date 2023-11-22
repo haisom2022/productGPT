@@ -49,8 +49,8 @@ export default function DreamPage() {
   const [sideBySide, setSideBySide] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
   const [photoName, setPhotoName] = useState<string | null>(null);
-  const [theme, setTheme] = useState<themeType>("Modern:现代风格");
-  const [room, setRoom] = useState<roomType>("Living Room:客厅");
+  const [theme, setTheme] = useState<themeType>("High-Tech:高科技");
+  const [room, setRoom] = useState<roomType>("Vehicle Instrumentation:车载仪表");
   const [description, setDescription] = useState<string>("");
   
   const UploadDropZone = () => (
@@ -160,7 +160,7 @@ export default function DreamPage() {
                         alt="1 icon"
                       />
                       <p className="text-left font-medium">
-                        请补充您的设计需求
+                        请补充您的设计需求(用英语描述)
                       </p>
                     </div>
                     <div className="space-y-4 w-full max-w-sm">
