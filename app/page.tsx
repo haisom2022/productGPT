@@ -10,7 +10,7 @@ export default function HomePage() {
       <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-20 mt-20 background-gradient">
         <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal text-gray-300 sm:text-7xl">
-          构建您梦想的房屋{" "}
+          构建产品灵感{" "}
           <span className="relative whitespace-nowrap text-blue-600">
             <SquigglyLines />
             <span className="relative">通过AI</span>
@@ -18,8 +18,8 @@ export default function HomePage() {
           帮您设计效果图
         </h1>
         <h2 className="mx-auto mt-12 max-w-xl text-lg sm:text-gray-400  text-gray-500 leading-7">
-          上传您现有的房屋(或者毛坯)照片，AI房屋设计专家让您的房屋看起来大不同！
-          只需几步即可渲染生产房屋效果图
+          上传产品手稿或线框图
+          只需几步即可渲染效果图
         </h2>
         <Link
           className="bg-blue-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition"
@@ -31,7 +31,7 @@ export default function HomePage() {
           <div className="flex flex-col space-y-10 mt-4 mb-16">
             <div className="flex sm:space-x-8 sm:flex-row flex-col">
               <div>
-                <h3 className="mb-1 font-medium text-lg">原有的房间</h3>
+                <h3 className="mb-1 font-medium text-lg">手稿图</h3>
                 <Image
                   alt="Original photo of a room with roomGPT.io"
                   src="/original-pic.jpg"
@@ -41,7 +41,7 @@ export default function HomePage() {
                 />
               </div>
               <div className="sm:mt-0 mt-8">
-                <h3 className="mb-1 font-medium text-lg">改造后的房间</h3>
+                <h3 className="mb-1 font-medium text-lg">产品效果图</h3>
                 <Image
                   alt="Generated photo of a room with roomGPT.io"
                   width={400}

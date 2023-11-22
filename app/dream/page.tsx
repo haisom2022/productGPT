@@ -105,7 +105,7 @@ export default function DreamPage() {
       <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-4 sm:mb-0 mb-8">
         <h1 className="mx-auto max-w-4xl font-display text-4xl font-bold tracking-normal text-slate-100 sm:text-6xl mb-5">
-          构建生成您的<span className="text-blue-600">梦想房屋</span>
+          构建生成您的<span className="text-blue-600">灵感产品</span>
         </h1>
         <ResizablePanel>
           <AnimatePresence mode="wait">
@@ -141,7 +141,7 @@ export default function DreamPage() {
                         alt="1 icon"
                       />
                       <p className="text-left font-medium">
-                        选择您的房间类型
+                        选择您的产品类型
                       </p>
                     </div>
                     <DropDown
@@ -179,7 +179,7 @@ export default function DreamPage() {
                   <div className="mt-4 w-full max-w-sm">
                     <div className="flex mt-6 w-96 items-center space-x-3">
                       <p className="text-left font-medium">
-                        上传一张该空间的照片
+                        上传一张该初稿照片
                       </p>
                     </div>
                   </div>
