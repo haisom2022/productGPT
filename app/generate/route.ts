@@ -49,7 +49,7 @@ export async function POST(request: Request) {
       input: {
         image: imageUrl,
         prompt:
-          `a ${theme} ${room} , ${description}`,
+          `a ${theme.split(":")[0].toLowerCase()} ${room.split(":")[0].toLowerCase()} , ${description}`,
         a_prompt:
           "best quality, extremely detailed, photo from Pinterest, interior, cinematic photo, ultra-detailed, ultra-realistic, award-winning",
         n_prompt:
